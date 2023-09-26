@@ -1,0 +1,107 @@
+
+
+.box {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+  font:normal 12px Poppins, Poppins, sans-serif; color:#7d7d7d; line-height:1.8em; padding:3px 5px; margin:0;
+}
+
+.button1 {
+  font:normal 12px Poppins, Poppins, sans-serif; color:#7d7d7d; line-height:1.8em; padding:3px 5px; margin:0;
+  padding: 5px;
+  color: #777272;
+  border: 1px solid #a7a3a3;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-family: Poppins, Poppins, sans-serif;
+}
+
+.button {
+  font:normal 12px Poppins, Poppins, sans-serif; color:#7d7d7d; line-height:1.8em; padding:3px 5px; margin:0;
+  padding: 5px;
+  color: #777272;
+  border: 1px solid #a7a3a3;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  
+}
+.button:hover {
+  background: #bfbebe;
+  font-family: Poppins, Poppins, sans-serif;
+}
+.button1:hover {
+  background: #bfbebe;
+  font-family: Poppins, Poppins, sans-serif;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: Poppins, Poppins, sans-serif;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Poppins, Poppins, sans-serif;
+  font-family: Poppins, Poppins, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-family: Poppins, Poppins, sans-serif;
+}
+.popup .close:hover {
+  color: #06D85F;
+  font-family: Poppins, Poppins, sans-serif;
+}
+.popup .content {
+  max-height: 80%;
+  overflow: auto;
+  font-family: Poppins, Poppins, sans-serif;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 80%;
+  }
+  .popup{
+    width: 80%;
+  }
+}
